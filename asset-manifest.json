@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Bagilis-foundation/static/css/main.7af1389f.css",
+    "main.js": "/Bagilis-foundation/static/js/main.c4d9d1e9.js",
+    "static/js/453.b6ee0ae8.chunk.js": "/Bagilis-foundation/static/js/453.b6ee0ae8.chunk.js",
+    "static/media/hands.jpg": "/Bagilis-foundation/static/media/hands.feca2ebf15345635bfdd.jpg",
+    "static/media/gal4.jpg": "/Bagilis-foundation/static/media/gal4.f74fee4402e933b833ff.jpg",
+    "static/media/Educational Support Program.jfif": "/Bagilis-foundation/static/media/Educational Support Program.ad318451ae57d263c835.jfif",
+    "static/media/gal2.jpg": "/Bagilis-foundation/static/media/gal2.78a4b064305943a77eb4.jpg",
+    "static/media/gal3.jpg": "/Bagilis-foundation/static/media/gal3.564a825de8eb42e118e4.jpg",
+    "static/media/gal1.jpg": "/Bagilis-foundation/static/media/gal1.daf9a56ae0e01c56326a.jpg",
+    "static/media/insta.png": "/Bagilis-foundation/static/media/insta.7975ba08aaa15327b255.png",
+    "static/media/fa-solid-900.ttf": "/Bagilis-foundation/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/banner.jpg": "/Bagilis-foundation/static/media/banner.ff11a8d8040144eb28e1.jpg",
+    "static/media/fa-brands-400.ttf": "/Bagilis-foundation/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Bagilis-foundation/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Bagilis-foundation/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/publicspeaking.jpg": "/Bagilis-foundation/static/media/publicspeaking.5bf87c0359c04f452810.jpg",
+    "static/media/fa-regular-400.ttf": "/Bagilis-foundation/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/GrustyBrushesPersonalUseRegular-pgo8O.otf": "/Bagilis-foundation/static/media/GrustyBrushesPersonalUseRegular-pgo8O.8385dacf1d780ec0953a.otf",
+    "static/media/Bagilis transparent.png": "/Bagilis-foundation/static/media/Bagilis transparent.9275385397088c100b37.png",
+    "static/media/gal6.jpg": "/Bagilis-foundation/static/media/gal6.514bf934a0ca499caa30.jpg",
+    "static/media/community.jfif": "/Bagilis-foundation/static/media/community.21c33da4b66bc199471a.jfif",
+    "static/media/fa-regular-400.woff2": "/Bagilis-foundation/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/x.png": "/Bagilis-foundation/static/media/x.d74d7cef2155f5a3d688.png",
+    "static/media/fb.png": "/Bagilis-foundation/static/media/fb.3cb08c9d44e0707a25e4.png",
+    "static/media/gal8.jfif": "/Bagilis-foundation/static/media/gal8.89f7259d2fe52c7cdd06.jfif",
+    "static/media/gal5.jfif": "/Bagilis-foundation/static/media/gal5.1e6368bef54c9eacf95f.jfif",
+    "static/media/fa-v4compatibility.ttf": "/Bagilis-foundation/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/gal7.jfif": "/Bagilis-foundation/static/media/gal7.96eb16009e4eddc2705d.jfif",
+    "static/media/fa-v4compatibility.woff2": "/Bagilis-foundation/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Bagilis-foundation/index.html",
+    "main.7af1389f.css.map": "/Bagilis-foundation/static/css/main.7af1389f.css.map",
+    "main.c4d9d1e9.js.map": "/Bagilis-foundation/static/js/main.c4d9d1e9.js.map",
+    "453.b6ee0ae8.chunk.js.map": "/Bagilis-foundation/static/js/453.b6ee0ae8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af1389f.css",
+    "static/js/main.c4d9d1e9.js"
+  ]
+}
