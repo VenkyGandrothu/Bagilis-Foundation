@@ -1,0 +1,73 @@
+@font-face {
+    font-family: fontspace;
+    src: url(../Fonts/GrustyBrushesPersonalUseRegular-pgo8O.otf);
+}
+
+.index-container {
+    position: relative;
+    background-image: url('../Images/hands.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+}
+
+/* Add an overlay using a pseudo-element */
+.index-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.indexecontent{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.indexecontent h1{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.indexecontent span {
+    font-family: fontspace;
+    font-size: 80px;
+    color: #fffb00; /* Highlight color for part of the text */
+}
+
+@media (max-width: 768px) {
+    .index-container{
+      height: 75vh;
+    }
+    .indexecontent h1 {
+        font-size: 6vw; /* Increase font size slightly for mobile */
+    }
+
+    .indexecontent span {
+        font-size: 10vw; /* Increase font size slightly for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .indexecontent h1 {
+        font-size: 8vw; /* Further increase font size for very small screens */
+    }
+
+    .indexecontent span {
+        font-size: 12vw; /* Further increase font size for very small screens */
+    }
+}
