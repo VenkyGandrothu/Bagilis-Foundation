@@ -130,7 +130,8 @@
         font-size: 20px;
         text-decoration: none;
         display: block;
-        padding: 10px 0;
+        border-bottom: 0.5px solid black;
+        padding: 5px 0;
     }
 
     .nav-links-mobile a:hover {

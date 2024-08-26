@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../Styles/Navbar.css';
 import logo from '../Images/Bagilis transparent.png';
@@ -9,24 +9,47 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const navRef = useRef(null);
 
   const toggleMobileMenu = () => {
     setIsMobile(!isMobile);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobile(false);
+  };
+
+  // Close mobile menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        closeMobileMenu();
+      }
+    };
+
+    if (isMobile) {
+      document.addEventListener('click', handleClickOutside);
+    } else {
+      document.removeEventListener('click', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [isMobile]);
+
   return (
-    <nav className="navcontainer">
+    <nav className="navcontainer" ref={navRef}>
       <div className="navbar-logo">
         <img src={logo} alt="Bagilis Logo" />
       </div>
       <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
-        <li><Link to='index' spy={true} smooth={true} offset={-50} duration={200}>Home</Link></li>
-        <li><Link to='aboutus' spy={true} smooth={true} offset={-50} duration={200}>About us</Link></li>
-        <li><Link to='ruralemployment' spy={true} smooth={true} offset={-50} duration={200}>Rural employment</Link></li>
-        <li><Link to='socialactivities' spy={true} smooth={true} offset={-50} duration={200}>Social Activities</Link></li>
-        <li><Link to='gallery' spy={true} smooth={true} offset={-50} duration={200}>Gallery</Link></li>
-        {/* <li><a href="#vision">Our Vision</a></li> */}
-        <li><Link to='contactus' spy={true} smooth={true} offset={-50} duration={200}>Contact us</Link></li>
+        <li><Link to='index' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Home</Link></li>
+        <li><Link to='aboutus' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>About us</Link></li>
+        <li><Link to='ruralemployment' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Rural employment</Link></li>
+        <li><Link to='socialactivities' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Social Activities</Link></li>
+        <li><Link to='gallery' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Gallery</Link></li>
+        <li><Link to='contactus' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Contact us</Link></li>
         <div className="navbarlink">
           <div className="social-links">
             <a href="#" target="_blank" rel="noopener noreferrer">
