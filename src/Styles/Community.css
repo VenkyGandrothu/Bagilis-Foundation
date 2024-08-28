@@ -1,0 +1,102 @@
+/* Community.css */
+.community-container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.headingcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.image-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.homebtn {
+    margin: 20px 0;
+}
+
+.homebtn button {
+    background-color: #4b2e77; /* Primary color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.material-symbols-outlined {
+    color: #fff;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .gallery-img {
+        height: 150px;
+    }
+
+    .homebtn button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .gallery-img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .homebtn {
+        margin: 20px 0;
+    }
+
+    .homebtn button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

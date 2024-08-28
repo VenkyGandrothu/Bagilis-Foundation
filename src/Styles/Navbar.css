@@ -51,6 +51,15 @@
     border-bottom: 2px solid #ff6f61;
 }
 
+.Events{
+     cursor: pointer;
+}
+.Events:hover{
+    color: #ff6f61;
+    border-bottom: 2px solid #ff6f61;
+}
+
+
 .nav-links .active {
     color: #ff6f61;
     border-bottom: 2px solid #ff6f61;
@@ -152,13 +161,13 @@
 /* Styles for larger screens */
 @media (min-width: 1025px) {
     .nav-links {
-        margin-right: 240px;
+        margin-right: 200px;
         gap: 20px;
     }
 }
 
 @media (min-width: 770px) and (max-width:1024px) {
     .nav-links {
-        margin-right: 130px;
+        margin-right: 85px;
     }
 }

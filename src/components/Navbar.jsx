@@ -6,8 +6,18 @@ import facebook from '../Images/fb.png';
 import twitterIcon from '../Images/x.png';
 import instagramIcon from '../Images/insta.png';
 import { Link } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+
+
+  const navigation = useNavigate();
+
+  const openEvent = () =>{
+      navigation('/events')
+  }
+
+
   const [isMobile, setIsMobile] = useState(false);
   const navRef = useRef(null);
 
@@ -50,6 +60,7 @@ const Navbar = () => {
         <li><Link to='socialactivities' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Social Activities</Link></li>
         <li><Link to='gallery' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Gallery</Link></li>
         <li><Link to='contactus' spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>Contact us</Link></li>
+        <li onClick={openEvent} className='Events'><a>Events</a></li>
         <div className="navbarlink">
           <div className="social-links">
             <a href="#" target="_blank" rel="noopener noreferrer">

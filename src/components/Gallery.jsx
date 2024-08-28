@@ -11,15 +11,15 @@ import slide1 from '../Images/gal1.jpg';
 import slide2 from '../Images/gal2.jpg';
 import slide3 from '../Images/gal3.jpg';
 import slide4 from '../Images/gal4.jpg';
-import slide5 from '../Images/gal5.jfif';
+import slide5 from '../Images/gal5.jpg';
 import slide6 from '../Images/gal6.jpg';
-import slide7 from '../Images/gal7.jfif';
-import slide8 from '../Images/gal8.jfif';
+import slide7 from '../Images/gal7.jpg';
+import slide8 from '../Images/gal8.jpg';
 
 function Gallery() {
   return (
     <div className='gallery-container'>
-      <h1 className="heading">Our <span>Gallery</span></h1>
+      <h1 className="heading"><span>Gallery</span></h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

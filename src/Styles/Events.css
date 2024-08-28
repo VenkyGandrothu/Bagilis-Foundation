@@ -1,0 +1,212 @@
+/* General styles for the event container */
+.eventcontainer {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Add the loader container styles */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  
+  .eventcontainer h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .eventcontainer span {
+    color: #ff6f61; /* Primary color for emphasis */
+  }
+  
+  .eventcontainer h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .eventcontainer p {
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Grid layout for images */
+  .eventcontainer .event-section {
+    margin-bottom: 40px;
+  }
+  
+  .event-section .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px; /* Added spacing between image grid and text */
+  }
+  
+  .event-section img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    margin-top: 10px;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.slider-controller {
+    position: relative;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-arrow {
+    color: #333;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.slider-arrow:hover {
+    color: #ff6f61;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: inherit;
+}
+
+.swiper-pagination-bullet {
+    background: #333;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ff6f61;
+}
+
+
+
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .eventcontainer h1 {
+      font-size: 32px;
+    }
+  
+    .eventcontainer h3 {
+      font-size: 24px;
+    }
+  
+    .eventcontainer p {
+      font-size: 14px;
+    }
+
+  }
+  
+  @media (max-width: 768px) {
+    .eventcontainer {
+      padding: 10px;
+    }
+  
+    .eventcontainer h1 {
+      font-size: 28px;
+    }
+  
+    .eventcontainer h3 {
+      font-size: 20px;
+    }
+  
+    .eventcontainer p {
+      font-size: 12px;
+    }
+    .swiper-container {
+      padding-bottom: 40px;
+  }
+
+  .swiper-slide {
+      width: 90%;
+  }
+
+  .slider-arrow {
+      font-size: 1.5rem;
+  }
+  }
+  
+  @media (max-width: 480px) {
+    .eventcontainer h1 {
+      font-size: 24px;
+    }
+  
+    .eventcontainer h3 {
+      font-size: 18px;
+    }
+  
+    .eventcontainer p {
+      font-size: 16px;
+    
+    }
+
+    .slider-arrow {
+      font-size: 1.2rem;
+  }
+
+  .swiper-slide {
+      width: 80%;
+  }
+  }
+  
+  .homebtn {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .homebtn button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .homebtn button:hover {
+    background-color: #fff;
+    border:2px solid #ff6f61;
+    color: #ff6f61;
+  }
+  
