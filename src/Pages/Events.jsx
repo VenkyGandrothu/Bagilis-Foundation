@@ -4,6 +4,7 @@ import '../Styles/Events.css'; // Ensure correct path
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useNavigate } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa'; 
 import comm1 from '../Images/comm1.jpg';
 import comm2 from '../Images/comm2.jpg';
 import comm3 from '../Images/comm3.jpg';
@@ -134,7 +135,7 @@ function Events() {
         <SwiperSlide><img src={comm4} alt="Slide 1" /></SwiperSlide>
         <SwiperSlide><img src={comm5} alt="Slide 1" /></SwiperSlide>
         <SwiperSlide><img src={comm6} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={comm7} alt="Slide 1" /></SwiperSlide>
+        {/* <SwiperSlide><img src={comm7} alt="Slide 1" /></SwiperSlide> */}
       </Swiper>
         </div>
         <div className="event-description">
@@ -167,7 +168,7 @@ function Events() {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className='swiper-container'
       >
-        <SwiperSlide><img src={p0119} alt="Slide 1" /></SwiperSlide>
+        {/* <SwiperSlide><img src={p0119} alt="Slide 1" /></SwiperSlide> */}
         <SwiperSlide><img src={p0419} alt="Slide 1" /></SwiperSlide>
         <SwiperSlide><img src={p0519} alt="Slide 1" /></SwiperSlide>
         <SwiperSlide><img src={p0619} alt="Slide 1" /></SwiperSlide>
@@ -183,7 +184,7 @@ function Events() {
 
       {/* Back to Home Button */}
       <div className="homebtn">
-        <button onClick={backtohome}>Back to Home</button>
+        <button onClick={backtohome}><FaArrowLeft /> Back to Home</button>
       </div>
     </div>
   );
