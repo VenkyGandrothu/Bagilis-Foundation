@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Bagilis-Foundation/static/css/main.0b843f84.css",
-    "main.js": "/Bagilis-Foundation/static/js/main.ffc07341.js",
+    "main.css": "/Bagilis-Foundation/static/css/main.9de70272.css",
+    "main.js": "/Bagilis-Foundation/static/js/main.87274668.js",
     "static/js/453.6b6c70c5.chunk.js": "/Bagilis-Foundation/static/js/453.6b6c70c5.chunk.js",
     "static/media/hands.jpg": "/Bagilis-Foundation/static/media/hands.feca2ebf15345635bfdd.jpg",
     "static/media/gen6.jpg": "/Bagilis-Foundation/static/media/gen6.71776484a924fd6f9f3e.jpg",
@@ -45,8 +45,8 @@
     "static/media/fa-regular-400.ttf": "/Bagilis-Foundation/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/GrustyBrushesPersonalUseRegular-pgo8O.otf": "/Bagilis-Foundation/static/media/GrustyBrushesPersonalUseRegular-pgo8O.8385dacf1d780ec0953a.otf",
     "static/media/gen3.jpg": "/Bagilis-Foundation/static/media/gen3.3633f34ceb6c5aa9ea40.jpg",
-    "static/media/Bagilis transparent.png": "/Bagilis-Foundation/static/media/Bagilis transparent.9275385397088c100b37.png",
     "static/media/gen1.jpg": "/Bagilis-Foundation/static/media/gen1.1b65f6811df4a2965be9.jpg",
+    "static/media/logo.jpg": "/Bagilis-Foundation/static/media/logo.8321c1ebe91550e00c60.jpg",
     "static/media/community.jfif": "/Bagilis-Foundation/static/media/community.21c33da4b66bc199471a.jfif",
     "static/media/fa-regular-400.woff2": "/Bagilis-Foundation/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/x.png": "/Bagilis-Foundation/static/media/x.d74d7cef2155f5a3d688.png",
@@ -54,12 +54,12 @@
     "static/media/fa-v4compatibility.ttf": "/Bagilis-Foundation/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Bagilis-Foundation/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Bagilis-Foundation/index.html",
-    "main.0b843f84.css.map": "/Bagilis-Foundation/static/css/main.0b843f84.css.map",
-    "main.ffc07341.js.map": "/Bagilis-Foundation/static/js/main.ffc07341.js.map",
+    "main.9de70272.css.map": "/Bagilis-Foundation/static/css/main.9de70272.css.map",
+    "main.87274668.js.map": "/Bagilis-Foundation/static/js/main.87274668.js.map",
     "453.6b6c70c5.chunk.js.map": "/Bagilis-Foundation/static/js/453.6b6c70c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b843f84.css",
-    "static/js/main.ffc07341.js"
+    "static/css/main.9de70272.css",
+    "static/js/main.87274668.js"
   ]
 }
