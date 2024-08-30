@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../Styles/Navbar.css';
-import logo from '../Images/Bagilis transparent.png';
+import logo from '../Images/logo.jpg';
 import facebook from '../Images/fb.png';
 import twitterIcon from '../Images/x.png';
 import instagramIcon from '../Images/insta.png';
